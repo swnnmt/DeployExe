@@ -1,0 +1,270 @@
+[
+  {
+    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Green Valley Camp",
+    "name": "Green Valley Tent Camp",
+    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
+    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
+    "basePrice": 120.0,
+    "thumbnail": "https://scontent.fhan14-5.fna.fbcdn.net/v/t39.30808-6/494681597_1254750223325724_8867493165403651247_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dID3VZpNlOYQ7kNvwH5Ngi5&_nc_oc=AdnkQgyCnTHAJ82NaXZDhGYVaOOXZOdgfjNzORZSHsBSxVnvJ7IHm7oErODBXNS-YbM&_nc_zt=23&_nc_ht=scontent.fhan14-5.fna&_nc_gid=UYmVLQT2uD3bcIjbgDSR9g&oh=00_AfdYJWpzu006RweATXE215TxBIBsXUJE8Xkf5m5IAoFkPg&oe=68EBAA44",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
+        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
+        "serviceName": "Lều 2 người ",
+        "price": 10.0,
+        "imageUrl": null
+      },
+      {
+        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
+        "serviceId": null,
+        "serviceName": "Breakfast",
+        "price": 5.0,
+        "imageUrl": null
+      }
+    ],
+    "tents": [
+      {
+        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "tentName": "Lều cho 4 người",
+        "capacity": 4,
+        "pricePerNight": 50.0,
+        "quantity": 2,
+        "thumbnail": "https://phukiengiagoc.vn/wp-content/uploads/2021/11/O1CN01Pb3ITy1lI9xqjjNeC_2208037254795-0-cib.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/498173123_1647860789486334_1568190910353656153_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pfpY-aw2RuEQ7kNvwECTaE-&_nc_oc=AdkAwdw0-qGsRKnEkXQxLFVJSxwfwsSzP01A3Xl-U6V4q0n-rW1PtBLfTVkWXQeHEhI&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=NdefxhPmhQLlKIYIyPMclw&oh=00_Afds6vrl8ZH1N6FeUaIgFbtitV36bh79bma3Tk0sPe1P5Q&oe=68EBB49F"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-08T01:37:46",
+    "updatedAt": "2025-10-08T01:37:46"
+  },
+  {
+    "id": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Green Valley Camp",
+    "name": "Đường Tâm Phan Camping",
+    "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
+    "description": "nơi rừng trúc xanh mượt bồng bềnh trong sương mai, nơi mỗi khóm cây như thì thầm câu chuyện của đất trời. Đến đây, bạn sẽ được chạm tay vào bình yên, hít vào không khí trong vắt của rừng sâu, nghe tiếng trúc lách cách trong gió như thể một khúc nhạc dịu nhẹ làm mềm lòng người vội.\n\nSáng sớm mở mắt, ánh nắng nhè nhẹ chạm lên đầu trúc, sương đọng trên ngọn lá, tất cả như vừa thức dậy cùng bạn. Chiều đến, bóng trúc in nghiêng dưới ánh hoàng hôn, không gian dịu dàng tựa tranh vẽ. Đêm về, giữa rừng trúc lặng thinh, tiếng lửa trại tí tách hòa lời cười nói, tiếng đàn, tiếng hát. Mọi thứ đều giản dị mà thấm sâu ký ức.\n\nThung Trúc Camping không chỉ là nơi dựng lều, ngủ giữa thiên nhiên mà là chốn để lắng lại, để nhớ, để cảm từng hơi thở trong lành và để mỗi khoảnh khắc trở thành bản thơ mềm mại của riêng bạn.\n",
+    "basePrice": 100000.0,
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/533962419_122099364956980657_4790446065916476693_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CYvkbONnga0Q7kNvwHgxu-7&_nc_oc=Adn6hcnl0C8Bo6foWZ7XT_Wl9EGYLQmEEGRxFw_rs6NELBshKuoEV9QDfEqwWPPNDZ2kxP7I-gQy6Yxovh6kMnBi&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=DvoTvaCboq8m7SE3W7xHKA&oh=00_AfcxKlbG-ERs3Rjd_vz__QCUqd4VQc9aOec5-ZiXYaIZeQ&oe=68EEA1FD",
+    "bookedCount": 5,
+    "revenue": 500000.0,
+    "services": [
+      {
+        "id": "5ac6b48e-9725-4ea7-b40e-fc3df9782c54",
+        "serviceId": null,
+        "serviceName": "Thêu bếp",
+        "price": 20000.0,
+        "imageUrl": null
+      },
+      {
+        "id": "c8c560de-f9f2-42a7-9e60-294a42763684",
+        "serviceId": null,
+        "serviceName": "Nướng BBQ Ngoài trời",
+        "price": 100000.0,
+        "imageUrl": null
+      },
+      {
+        "id": "d56e8f44-10d5-4159-9579-13d0e6d88494",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 20000.0,
+        "imageUrl": null
+      }
+    ],
+    "tents": [
+      {
+        "id": "3bf106fa-6388-4534-8996-b7762432a7bd",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "https://campingday.vn/upload/product/so-sanh-leu-cam-trai-coleman-va-trackman-3-9065.png"
+      },
+      {
+        "id": "aa55fcfa-a7eb-4350-9271-e07d36341895",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 20,
+        "thumbnail": "https://shopreview.vn/wp-content/uploads/2021/06/O1CN01tGZc7z1TGdOdTU7LH_1001202355-0-cib.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "imageUrl": "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/534741499_122099365130980657_3371240897230417839_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EqCrp4fQRM4Q7kNvwHBdQww&_nc_oc=AdkO8fvvT1PSB069dkTRB2KfjVmcUMBX7vEu4p1ZtRYbEnmd0jVV6ppr3EFHsh2iWQGQ4IrcP1Ay5aRKeqekdEn5&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=DvoTvaCboq8m7SE3W7xHKA&oh=00_AfcDubG-kLG4-UWu_zRe4gXSkeY9N9jM0qBTDfYEP9HSCA&oe=68EEA1BB"
+      },
+      {
+        "id": "b3dd5aa7-ff5d-44b9-b9e2-3364ce231bd4",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "imageUrl": "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/533962419_122099364956980657_4790446065916476693_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CYvkbONnga0Q7kNvwHgxu-7&_nc_oc=Adn6hcnl0C8Bo6foWZ7XT_Wl9EGYLQmEEGRxFw_rs6NELBshKuoEV9QDfEqwWPPNDZ2kxP7I-gQy6Yxovh6kMnBi&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=DvoTvaCboq8m7SE3W7xHKA&oh=00_AfcxKlbG-ERs3Rjd_vz__QCUqd4VQc9aOec5-ZiXYaIZeQ&oe=68EEA1FD"
+      },
+      {
+        "id": "c9dbb67a-0e01-4cb1-8f00-06dbde6f595c",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "imageUrl": "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/536195601_122099369006980657_6320131240993655829_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wl3KhWhI9KwQ7kNvwFvz4VH&_nc_oc=AdnHKAsAc5emsKKRcrgMQ_8FXCJq1dHoJ9POP3ck9EidU7O8HZ1duMgAeyr470WfJ9LClYF9QTRHbP30CXZkfBdo&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=IYpK-7v0v5eeHuuROFlxPQ&oh=00_AfcsS-nuTZIMX-hq1iPOW9fQ8fjtD5_nzI18ZE4aFzqXMw&oe=68EEB536"
+      }
+    ],
+    "active": true,
+    "rate": 4.5,
+    "createdAt": "2025-10-10T09:44:06",
+    "updatedAt": "2025-10-10T09:44:06"
+  },
+  {
+    "id": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Green Valley Camp",
+    "name": "Thung Trúc Camping",
+    "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
+    "description": "Thung Trúc Camping – nơi rừng trúc xanh mượt bồng bềnh trong sương mai, nơi mỗi khóm cây như thì thầm câu chuyện của đất trời. Đến đây, bạn sẽ được chạm tay vào bình yên, hít vào không khí trong vắt của rừng sâu, nghe tiếng trúc lách cách trong gió như thể một khúc nhạc dịu nhẹ làm mềm lòng người vội.\n\nSáng sớm mở mắt, ánh nắng nhè nhẹ chạm lên đầu trúc, sương đọng trên ngọn lá, tất cả như vừa thức dậy cùng bạn. Chiều đến, bóng trúc in nghiêng dưới ánh hoàng hôn, không gian dịu dàng tựa tranh vẽ. Đêm về, giữa rừng trúc lặng thinh, tiếng lửa trại tí tách hòa lời cười nói, tiếng đàn, tiếng hát. Mọi thứ đều giản dị mà thấm sâu ký ức.\n\nThung Trúc Camping không chỉ là nơi dựng lều, ngủ giữa thiên nhiên mà là chốn để lắng lại, để nhớ, để cảm từng hơi thở trong lành và để mỗi khoảnh khắc trở thành bản thơ mềm mại của riêng bạn.\n",
+    "basePrice": 100000.0,
+    "thumbnail": "https://scontent.fhan14-4.fna.fbcdn.net/v/t39.30808-6/538471047_622631190905945_2353147475974282353_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7j6gzbXQFvwQ7kNvwExVm5c&_nc_oc=AdmnfF_3rNIurWbk1nNUcrFCm5nAadRTcIhpplT3kC4DqFGt1gtGHpyduo9f9N0epu4&_nc_zt=23&_nc_ht=scontent.fhan14-4.fna&_nc_gid=4Yn9I3CKM1FrChA3i2nMsQ&oh=00_AffzHbx7F0Gy_fuog5B3ckbRq-wacSoRCCJ2N3-4v_MVSg&oe=68ED9764",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "39e4d59e-2ea3-4367-847b-7f67dd03f314",
+        "serviceId": null,
+        "serviceName": "Thuê bếp",
+        "price": 20000.0,
+        "imageUrl": null
+      },
+      {
+        "id": "4e5d622c-1560-44b8-85c2-f05b68fa380e",
+        "serviceId": null,
+        "serviceName": "Thuê Ghế",
+        "price": 20000.0,
+        "imageUrl": null
+      }
+    ],
+    "tents": [
+      {
+        "id": "5ed522fb-97f1-418e-91da-73895a1ef98b",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 400000.0,
+        "quantity": 20,
+        "thumbnail": "https://nguyengiaphuc.vn/wp-content/uploads/2021/07/Le%CC%82%CC%80u.jpeg"
+      },
+      {
+        "id": "c9cb80d9-f2d9-46f9-992e-6bae5df3e129",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "tentName": "Lều 2 người ",
+        "capacity": 2,
+        "pricePerNight": 200000.0,
+        "quantity": 10,
+        "thumbnail": "https://thumb.photo-ac.com/54/549eb4c8cd5b9bd1b5036fe20b8ca31e_t.jpeg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "12de2dac-ae76-41f4-a0a2-5813af544c87",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "imageUrl": "https://scontent.fhan14-5.fna.fbcdn.net/v/t39.30808-6/480448355_482699388232460_1396373274436357941_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lgsFg56BxCoQ7kNvwGscvrQ&_nc_oc=AdnP4zHgG3nGQ1ghx-rVdbg46ZfwzlvdzFT2K-KJw67-kPKGh7DsTLRNX752fcx5bW4&_nc_zt=23&_nc_ht=scontent.fhan14-5.fna&_nc_gid=5SwMzc2SPON7h9XuMrqpVw&oh=00_Affg9EnJrnYDZjnAUEq0SRfhFdf25TFwG3oBLX10F5qNJA&oe=68ED9681"
+      },
+      {
+        "id": "2f9cac7a-b1f9-4e88-be85-533249837db8",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "imageUrl": "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/517124055_589636510872080_6773185771442479920_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=VVx7kDS353MQ7kNvwG29lLL&_nc_oc=Adl98HBbUHEK8f7U6tyOVqcLh7xb0Dgbpclzr0rNseg2KDa7Q0AFQgRMU_qCl780XyI&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=pnmFu5ntCVDDEd9n6Ms6pw&oh=00_AffvzTQeDE3CzkC5jtW5nf_92dUu9tCbZkMIdZbNYDWs7w&oe=68EDAA24"
+      },
+      {
+        "id": "dcec7f12-ebba-444a-a6a6-95dccfb5f82c",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "imageUrl": "https://scontent.fhan14-5.fna.fbcdn.net/v/t39.30808-6/529737722_610634942105570_1785355419277063550_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KGTYdufaiWUQ7kNvwHC67Ss&_nc_oc=AdmgkXIZ3OM3MpK035TfkCWE10jmPJJNIQKsmPzHtuNJ6ZGHvN7q2JXMaf61S9zHb5k&_nc_zt=23&_nc_ht=scontent.fhan14-5.fna&_nc_gid=50038eTLuf8qml_fqGdT0Q&oh=00_Afeh3AJvhu35sEg9mI51iC7kapNeEsDnqbtUYcjo8qXqNA&oe=68EDA961"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-09T15:04:10",
+    "updatedAt": "2025-10-09T15:04:10"
+  },
+  {
+    "id": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Green Valley Camp",
+    "name": "Trang Thiều Camping",
+    "address": "Hồ Hàm Lợn, Nam Sơn, Sóc Sơn, Hà Nội",
+    "description": "Giữa lòng Sóc Sơn xanh mát, Hồ Hàm Lợn được mệnh danh là “nóc nhà Thủ đô” – nơi thiên nhiên trong lành ôm trọn bước chân người lữ khách. Tại đây, Trang Thiều Camping mang đến một không gian dừng chân đầy đủ tiện nghi nhưng vẫn giữ trọn vẻ mộc mạc của núi rừng.\n\nBạn có thể tự do cắm trại bên hồ, ngắm bình minh vén màn sương sớm hay lặng nhìn hoàng hôn rực cháy phía xa. Những bữa tiệc nướng ấm cúng bên ánh lửa trại, những khung nhạc vang lên giữa thung lũng, những đêm quây quần cùng bạn bè… tất cả tạo nên trải nghiệm vừa hoang sơ, vừa thi vị.\n\nTrang Thiều Camping còn chăm chút cho từng nhu cầu: từ lều trại, bếp nướng, củi lửa, cho đến tắm nóng lạnh, karaoke hay thực đơn phong phú. Chỉ cần mang theo tâm hồn rộng mở, mọi thứ khác đã có nơi đây chuẩn bị sẵn.\n\nHàm Lợn không chỉ là một chuyến đi, mà là hành trình chạm đến sự tự do và khoảng lặng bình yên giữa nhịp sống vội vã.",
+    "basePrice": 100000.0,
+    "thumbnail": "https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/486550585_1096682742476032_2912165086311807582_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=__pTDCqq-JQQ7kNvwGruYQ0&_nc_oc=AdlehPraAdodDMtpjzaPiEU2hFOMIXUNGym4GQZ3-fIF8fpoUyKOHEGrvd_S2uTGKCg&_nc_zt=23&_nc_ht=scontent.fhan14-3.fna&_nc_gid=OlPEBjgi0rNg9i0hpO9Z8w&oh=00_AfcQoxOXd-AI6Abw9CWCPQA1xgfafC9H7U9zefMaiGnVcg&oe=68ED2F80",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "05293fa9-08ff-4581-a261-ac3b42e0b511",
+        "serviceId": null,
+        "serviceName": "Thuê bếp",
+        "price": 50.0,
+        "imageUrl": null
+      },
+      {
+        "id": "ab1b3cd0-fb55-47ea-a821-41db9e635797",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 30000.0,
+        "imageUrl": null
+      }
+    ],
+    "tents": [
+      {
+        "id": "0d60a767-44ba-4fe9-9e1b-d28a54f2ceb1",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "https://nguyengiaphuc.vn/wp-content/uploads/2021/07/Le%CC%82%CC%80u.jpeg"
+      },
+      {
+        "id": "393a756e-b1fc-4057-8265-b6ac9a46d915",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 5,
+        "thumbnail": "https://nguyengiaphuc.vn/wp-content/uploads/2021/07/Le%CC%82%CC%80u.jpeg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "4c1459ec-734a-477b-8886-495b0dbf1f96",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/487165282_1096682942476012_896433542731348352_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lQhrTs_4sGgQ7kNvwEcybgY&_nc_oc=AdnFGyQGzk4kvaeZKDihwRuODtAnRUXA03F4QKK9B6yjI7UWdmlpCsrY6y4RjD2wHrA&_nc_zt=23&_nc_ht=scontent.fhan14-3.fna&_nc_gid=3ON82LsgQzfCtzTfgOZiSQ&oh=00_Aff2CUeqnkuJgO2QgePyfrDAstZDMhht10tSEGEHrjlpew&oe=68ED3B11"
+      },
+      {
+        "id": "a80b486b-0c17-4dae-a466-edb041f17192",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "https://scontent.fhan14-5.fna.fbcdn.net/v/t39.30808-6/486793520_1096682725809367_2646260983143491502_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dxAF3J3ntdYQ7kNvwEzNXN4&_nc_oc=AdkiRLfPJK842mVj1ldLBgh2IOk3CORGR_vfRAJ2FgjlF_nZ48PhzzJuaM90sKDkjKE&_nc_zt=23&_nc_ht=scontent.fhan14-5.fna&_nc_gid=cewEpbGkf1VcMvH0IzQiXw&oh=00_AfczarDs9m-4nx4ECdrV1Zycdglio1dNCzWmXkrRK9vJ2A&oe=68ED0C84"
+      },
+      {
+        "id": "ab998ebc-bcdb-4cb9-90a3-5c0bd9cf8eed",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/486642216_1096682732476033_243184306441691293_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jZfV_l2BcfcQ7kNvwEEdNRC&_nc_oc=AdlFpKjdipjsRKQZkLfQ9ktZ0dSVz1BIJrExoBStITAfwIVQoHX0x1vz3uQpWOKzcFo&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=A4-cmyXINhvI6Icb7A4loA&oh=00_AfdVVwy3k9DVqpYcWh7lWoM_ykRUEqOjFAcUovJbT40Nwg&oe=68ED0FE6"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-09T05:52:20",
+    "updatedAt": "2025-10-09T05:52:20"
+  }
+]
