@@ -1,18 +1,46 @@
 import React, { useEffect, useState } from "react";
-
 import BannerHome from "../components/BannerHome";
-
 import { Link, useNavigate } from "react-router-dom";
 import ChatPopup from "../components/ChatPopup";
 
-
-export default function HomePage({ tours = [], toursPopular = [] }) {
-  useEffect(() => {
-    window.AOS?.init();
-  }, []);
-
+export default function HomePage() {
+  const [tours, setTours] = useState([]);
+  const [toursPopular, setToursPopular] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [showChat, setShowChat] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.AOS?.init();
+
+    const fetchTours = async () => {
+      try {
+        const response = await fetch("/data/campingData.json");
+        const jsonData = await response.json();
+
+        // chỉ lấy tour đang active
+        const activeTours = jsonData.filter((tour) => tour.active);
+
+        // sắp xếp giảm dần theo bookedCount
+        const sortedByBook = [...activeTours].sort(
+          (a, b) => (b.bookedCount || 0) - (a.bookedCount || 0)
+        );
+
+        // lưu danh sách đầy đủ & top 4 tour có lượt book cao nhất
+        setTours(activeTours);
+        setToursPopular(sortedByBook.slice(0, 4));
+      } catch (error) {
+        console.error("Lỗi khi lấy dữ liệu camping:", error);
+        setTours([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTours();
+  }, []);
+
+  if (loading) return <p className="text-center py-5">Đang tải dữ liệu...</p>;
 
   return (
     <>
@@ -32,17 +60,6 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                 data-aos-offset="50"
               >
                 <h2>Khám phá kho báu việt nam cùng Campverse</h2>
-                <p>
-                  Website
-                  <span
-                    className="count-text plus"
-                    data-speed="3000"
-                    data-stop="24080"
-                  >
-                    0
-                  </span>{" "}
-                  phổ biến nhất mà bạn sẽ nhớ
-                </p>
               </div>
             </div>
           </div>
@@ -56,14 +73,16 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                   data-aos-offset="50"
                 >
                   <div className="image">
-                    <div className="ratting">
-                      <i className="fas fa-star"></i> {tour.rating.toFixed(1)}
+                   <div className="ratting">
+                      <i className="fas fa-star"></i>{" "}
+                      {typeof tour.rating === "number" ? tour.rating.toFixed(1) : "Chưa có"}
                     </div>
+
                     <a href="#" className="heart">
                       <i className="fas fa-heart"></i>
                     </a>
                     <img
-                      src={`/assets/images/gallery-tours/${tour.images[0]}`}
+                      src={tour.thumbnail}
                       alt="Destination"
                     />
                   </div>
@@ -73,16 +92,16 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                       {tour.destination}
                     </span>
                     <h5>
-                      <Link to={`/tour/${tour.tourId}`}>{tour.title}</Link>
+                      <Link to={`/camping-detail/${tour.id}`}>{tour.name}</Link>
                     </h5>
-                    <span className="time">{tour.time}</span>
+                    
                   </div>
                   <div className="destination-footer">
                     <span className="price">
-                      <span>{tour.priceAdult.toLocaleString()}</span> VND /
+                      <span>{tour.basePrice}</span> VND /
                       người
                     </span>
-                    <Link to={`/tour/${tour.tourId}`} className="read-more">
+                    <Link to={`/camping-detail/${tour.id}`} className="read-more">
                       Đặt ngay <i className="fal fa-angle-right"></i>
                     </Link>
                   </div>
@@ -124,7 +143,7 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                         data-speed="3000"
                         data-stop="5"
                       >
-                        0
+                        1
                       </span>{" "}
                       Năm
                     </span>{" "}
@@ -139,7 +158,7 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                         data-speed="2000"
                         data-stop="1"
                       >
-                        0
+                        3
                       </span>
                       <span className="counter-title">Điểm đến phổ biến</span>
                     </div>
@@ -151,7 +170,7 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                         data-speed="3000"
                         data-stop="8"
                       >
-                        0
+                        1000
                       </span>
                       <span className="counter-title">Khách hàng hài lòng</span>
                     </div>
@@ -198,182 +217,60 @@ export default function HomePage({ tours = [], toursPopular = [] }) {
                   data-aos-offset="50"
                 >
                   <h2>Khám phá các điểm đến phổ biến</h2>
-                  <p>
-                    Website{" "}
-                    <span
-                      className="count-text plus"
-                      data-speed="3000"
-                      data-stop="24080"
-                    >
-                      0
-                    </span>{" "}
-                    trải nghiệm phổ biến nhất
-                  </p>
                 </div>
               </div>
             </div>
-            <div className="container">
-              <div className="row justify-content-center">
-                {toursPopular.map((tour, idx) => (
-                  <div
-                    className={
-                      idx === 2 || idx === 3
-                        ? "col-md-6 item"
-                        : "col-xl-3 col-md-6 item"
-                    }
-                    key={idx}
-                  >
-                    <div
-                      className="destination-item style-two"
-                      data-aos-duration="1500"
-                      data-aos-offset="50"
-                    >
-                      <div className="image" style={{ maxHeight: 250 }}>
-                        <a href="#" className="heart">
-                          <i className="fas fa-heart"></i>
-                        </a>
-                        <img
-                          src={`/assets/images/gallery-tours/${tour.images[0]}`}
-                          alt="Destination"
-                        />
-                      </div>
-                      <div className="content">
-                        <h6 className="tour-title">
-                          <Link to={`/tour/${tour.tourId}`}>{tour.title}</Link>
-                        </h6>
-                        <span className="time">{tour.time}</span>
-                        <Link to={`/tour/${tour.tourId}`} className="more">
-                          <i className="fas fa-chevron-right"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
 
       {/* Features Area */}
-      <section className="features-area pt-100 pb-45 rel z-1">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6">
-              <div
-                className="features-content-part mb-55"
-                data-aos="fade-left"
-                data-aos-duration="1500"
-                data-aos-offset="50"
-              >
-                <div className="section-title mb-60">
-                  <h2>
-                    Trải nghiệm du lịch tuyệt đỉnh mang đến sự khác biệt cho
-                    công ty chúng tôi
-                  </h2>
-                </div>
-                <div className="features-customer-box">
-                  <div className="image">
-                    <img
-                      src="/assets/images/features/features-box.jpg"
-                      alt="Features"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="feature-authors mb-15">
-                      {[1, 2, 3].map((n) => (
-                        <img
-                          key={n}
-                          src={`/assets/images/features/feature-author${n}.jpg`}
-                          alt="Author"
-                        />
-                      ))}
-                      <span>4k+</span>
-                    </div>
-                    <h6>850K+ Khách hàng hài lòng</h6>
-                    <div className="divider style-two counter-text-wrap my-25">
-                      <span>
-                        <span
-                          className="count-text plus"
-                          data-speed="3000"
-                          data-stop="5"
-                        >
-                          0
-                        </span>{" "}
-                        Năm
-                      </span>
-                    </div>
-                    <p>
-                      Chúng tôi tự hào cung cấp các hành trình được cá nhân hóa
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-6"
-              data-aos="fade-right"
-              data-aos-duration="1500"
-              data-aos-offset="50"
-            >
-              {/*  */}
-              <div className="row pb-25">
-                {[...Array(4)].map((_, i) => (
-                  <div className="col-md-6" key={i}>
-                    <div className="feature-item mt-20">
-                      <div className="icon">
-                        <i className="flaticon-tent"></i>
-                      </div>
-                      <div className="content">
-                        <h5>
-                          <Link to="/tours">Tên Điểm nhấn {i + 1}</Link>
-                        </h5>
-                        <p>Mô tả ngắn gọn về điểm nhấn này.</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              {/*  */}
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Area */}
       <section className="cta-area pt-100 rel z-1">
-        <div className="container-fluid">
-          <div className="row">
-            {[1, 2, 3].map((n) => (
-              <div
-                className="col-xl-4 col-md-6"
-                data-aos="zoom-in-down"
-                data-aos-delay={(n - 1) * 50}
-                data-aos-duration="1500"
-                data-aos-offset="50"
-                key={n}
-              >
-                <div
-                  className="cta-item"
-                  style={{
-                    backgroundImage: `url(/assets/images/cta/cta${n}.jpg)`,
-                  }}
-                >
-                  <span className="category">Tiêu đề CTA {n}</span>
-                  <h2>Mô tả CTA {n}</h2>
-                  <Link
-                    to="/tours"
-                    className="theme-btn style-two bgc-secondary"
-                  >
-                    <span data-hover="Khám phá">Khám phá</span>
-                    <i className="fal fa-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
+  <div className="container-fluid">
+    <div className="row">
+      {tours.slice(0, 3).map((tour, index) => (
+        <div
+          className="col-xl-4 col-md-6"
+          data-aos="zoom-in-down"
+          data-aos-delay={index * 100}
+          data-aos-duration="1500"
+          data-aos-offset="50"
+          key={index}
+        >
+          <div
+  className="cta-item"
+  style={{
+    backgroundImage: `url(${tour.thumbnail || "/assets/images/cta/default.jpg"})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    borderRadius: "10px",
+    position: "relative",
+    height: "300px", // có thể tùy chỉnh chiều cao
+    overflow: "hidden",
+  }}
+>
+  <div className="cta-title">
+    <span className="theme-btn tour-name">{tour.name}</span>
+  </div>
+
+  <Link
+    to={`/camping-detail//${tour.id}`}
+    className="theme-btn style-two bgc-secondary explore-btn"
+  >
+    <span data-hover="Khám phá">Khám phá</span>
+    <i className="fal fa-arrow-right"></i>
+  </Link>
+</div>
+
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       <button
         onClick={() => setShowChat(true)}
