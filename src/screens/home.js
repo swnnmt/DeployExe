@@ -170,7 +170,7 @@ export default function HomePage() {
                         data-speed="3000"
                         data-stop="8"
                       >
-                        1000
+                        1
                       </span>
                       <span className="counter-title">Khách hàng hài lòng</span>
                     </div>

@@ -50,6 +50,57 @@
     "createdAt": "2025-10-08T01:37:46",
     "updatedAt": "2025-10-08T01:37:46"
   },
+   {
+    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0999",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Green Valley Camp",
+    "name": "Tam Dao Camp",
+    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
+    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
+    "basePrice": 120000.0,
+    "thumbnail": "/assets/imageCamping/5.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
+        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
+        "serviceName": "BBQ ngoài trời",
+        "price": 100000.0,
+        "imageUrl": "/assets/imageCamping/services1"
+      },
+      {
+        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
+        "serviceId": null,
+        "serviceName": "Breakfast",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services3"
+      }
+    ],
+    "tents": [
+      {
+        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "tentName": "Lều cho 4 người",
+        "capacity": 4,
+        "pricePerNight": 350000.0,
+        "quantity": 2,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/5.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-08T01:37:46",
+    "updatedAt": "2025-10-08T01:37:46"
+  },
   {
     "id": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
     "userId": "u001",
@@ -127,16 +178,67 @@
     "createdAt": "2025-10-10T09:44:06",
     "updatedAt": "2025-10-10T09:44:06"
   },
-  {
-    "id": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+   {
+    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
     "userId": "u001",
     "campingSiteId": "camp001",
     "campingSiteName": "Green Valley Camp",
-    "name": "Thung Trúc Camping",
+    "name": "Green Valley Tent Camp",
+    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
+    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
+    "basePrice": 120000.0,
+    "thumbnail": "/assets/imageCamping/4.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
+        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
+        "serviceName": "BBQ ngoài trời",
+        "price": 100000.0,
+        "imageUrl": "/assets/imageCamping/services1"
+      },
+      {
+        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
+        "serviceId": null,
+        "serviceName": "Breakfast",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services3"
+      }
+    ],
+    "tents": [
+      {
+        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "tentName": "Lều cho 4 người",
+        "capacity": 4,
+        "pricePerNight": 350000.0,
+        "quantity": 2,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/5.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-08T01:37:46",
+    "updatedAt": "2025-10-08T01:37:46"
+  },
+  {
+    "id": "c7376c05-c08c-43dc-9c44-8b85ee648f88",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Green Valley Camp",
+    "name": "Ba Vi Camping",
     "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
-    "description": "Thung Trúc Camping – nơi rừng trúc xanh mượt bồng bềnh trong sương mai, nơi mỗi khóm cây như thì thầm câu chuyện của đất trời. Đến đây, bạn sẽ được chạm tay vào bình yên, hít vào không khí trong vắt của rừng sâu, nghe tiếng trúc lách cách trong gió như thể một khúc nhạc dịu nhẹ làm mềm lòng người vội.\n\nSáng sớm mở mắt, ánh nắng nhè nhẹ chạm lên đầu trúc, sương đọng trên ngọn lá, tất cả như vừa thức dậy cùng bạn. Chiều đến, bóng trúc in nghiêng dưới ánh hoàng hôn, không gian dịu dàng tựa tranh vẽ. Đêm về, giữa rừng trúc lặng thinh, tiếng lửa trại tí tách hòa lời cười nói, tiếng đàn, tiếng hát. Mọi thứ đều giản dị mà thấm sâu ký ức.\n\nThung Trúc Camping không chỉ là nơi dựng lều, ngủ giữa thiên nhiên mà là chốn để lắng lại, để nhớ, để cảm từng hơi thở trong lành và để mỗi khoảnh khắc trở thành bản thơ mềm mại của riêng bạn.\n",
+    "description": "Ba Vi Camping – nơi rừng trúc xanh mượt bồng bềnh trong sương mai, nơi mỗi khóm cây như thì thầm câu chuyện của đất trời. Đến đây, bạn sẽ được chạm tay vào bình yên, hít vào không khí trong vắt của rừng sâu, nghe tiếng trúc lách cách trong gió như thể một khúc nhạc dịu nhẹ làm mềm lòng người vội.\n\nSáng sớm mở mắt, ánh nắng nhè nhẹ chạm lên đầu trúc, sương đọng trên ngọn lá, tất cả như vừa thức dậy cùng bạn. Chiều đến, bóng trúc in nghiêng dưới ánh hoàng hôn, không gian dịu dàng tựa tranh vẽ. Đêm về, giữa rừng trúc lặng thinh, tiếng lửa trại tí tách hòa lời cười nói, tiếng đàn, tiếng hát. Mọi thứ đều giản dị mà thấm sâu ký ức.\n\nThung Trúc Camping không chỉ là nơi dựng lều, ngủ giữa thiên nhiên mà là chốn để lắng lại, để nhớ, để cảm từng hơi thở trong lành và để mỗi khoảnh khắc trở thành bản thơ mềm mại của riêng bạn.\n",
     "basePrice": 100000.0,
-    "thumbnail": "/assets/imageCamping/3.jpg",
+    "thumbnail": "/assets/imageCamping/9.jpg",
     "bookedCount": 0,
     "revenue": 0.0,
     "services": [
