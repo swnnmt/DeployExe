@@ -64,7 +64,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="row justify-content-center">
-            {tours.map((tour, index) => (
+            {tours.slice(0, 4).map((tour, index) => (
               <div className="col-xxl-3 col-xl-4 col-md-6 mb-4" key={index}>
                 <div
                   className="destination-item block_tours"
