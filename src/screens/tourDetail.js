@@ -14,12 +14,13 @@ const TourDetailPage = ({ campingId }) => {
   const [tentAvailability, setTentAvailability] = useState([]);
   const [tourDetail, setTourDetail] = useState(null);
   const [galleryImages, setGalleryImages] = useState([]);
+  const [reviews, setReviews] = useState([]); // ⭐ thêm state review
   const [totalDays, setTotalDays] = useState(0);
 
   const today = new Date().toISOString().split("T")[0];
 
+  // Lấy dữ liệu từ file JSON
   useEffect(() => {
-    // Lấy dữ liệu từ file JSON trong public
     fetch("/data/campingData.json")
       .then((res) => res.json())
       .then((data) => {
@@ -28,6 +29,7 @@ const TourDetailPage = ({ campingId }) => {
           setTourDetail(selectedTour);
           setGalleryImages(selectedTour.galleries ?? []);
           setTentAvailability(selectedTour.tents ?? []);
+          setReviews(selectedTour.reviews ?? []); // ⭐ lấy review từ JSON
         }
       })
       .catch((err) => console.error("Error loading camping data:", err));
@@ -70,7 +72,7 @@ const TourDetailPage = ({ campingId }) => {
   const preparationItems = [
     { icon: "/assets/images/icon-para/sacduphong.jpg", label: "Sạc dự phòng" },
     { icon: "/assets/images/icon-para/khantam.jpg", label: "Khăn tắm đa năng" },
-    { icon: "/assets/images/icon-para/kinh.jpg", label: "Kính dâm" },
+    { icon: "/assets/images/icon-para/kinh.jpg", label: "Kính râm" },
     { icon: "/assets/images/icon-para/mayanh.jpg", label: "Máy ảnh" },
     { icon: "/assets/images/icon-para/giay.jpg", label: "Giày leo núi" },
     { icon: "/assets/images/icon-para/binhnuoc.jpg", label: "Bình nước" },
@@ -85,6 +87,7 @@ const TourDetailPage = ({ campingId }) => {
 
       <section className="container mb-5">
         <div className="row">
+          {/* Left Column */}
           <div className="col-lg-8">
             <h3>{tourDetail.name}</h3>
             <p className="text-muted">{tourDetail.address}</p>
@@ -95,8 +98,9 @@ const TourDetailPage = ({ campingId }) => {
               ))}
             </div>
 
+            {/* Gallery */}
             {galleryImages.length > 0 && (
-              <div className="gallery">
+              <div className="gallery mb-4">
                 {galleryImages.map((img, idx) => (
                   <img
                     key={idx}
@@ -108,11 +112,36 @@ const TourDetailPage = ({ campingId }) => {
               </div>
             )}
 
+            {/* ⭐ Review Section */}
+            <section className="reviews-section mb-5">
+              <h4 className="mb-3">Đánh giá từ khách hàng</h4>
+              {reviews.length > 0 ? (
+                reviews.map((rev, index) => (
+                  <div
+                    key={index}
+                    className="review-card p-3 mb-3 shadow-sm rounded"
+                  >
+                    <div className="d-flex justify-content-between align-items-center">
+                      <strong>{rev.userName}</strong>
+                      <div className="text-warning">
+                        {"★".repeat(rev.rating)}{"☆".repeat(5 - rev.rating)}
+                      </div>
+                    </div>
+                    <p className="mt-2 mb-0">{rev.comment}</p>
+                  </div>
+                ))
+              ) : (
+                <p>Chưa có đánh giá nào cho khu cắm trại này.</p>
+              )}
+            </section>
+
+            {/* Preparation Section */}
             <section id="prepare" className="mb-5">
               <TourPreparationItems items={preparationItems} />
             </section>
           </div>
 
+          {/* Right Column */}
           <div className="col-lg-4">
             <div className="bg-light p-4 rounded shadow-sm mb-4">
               <h4 className="mb-3">Đặt Camping</h4>
@@ -184,27 +213,37 @@ const TourDetailPage = ({ campingId }) => {
         </div>
       </section>
 
-           {showPopup && (
-      <div className="booking-popup-overlay" onClick={handleClosePopup}>
-        <div className="booking-popup-content" onClick={e => e.stopPropagation()}>
-          <div className="booking-popup-header">
-          <h4>Đặt Camping & Thuê Lều</h4>
-        <button className="booking-popup-close" onClick={handleClosePopup}>X</button>
-      </div>
-      <div className="booking-popup-body">
-        <TentBookingSection
-          campingId={campingId}
-          tourDetail={{
-            ...tourDetail,
-            startDate: selectedStartDate,
-            endDate: selectedEndDate,
-            time: `${totalDays} ngày ${Math.max(totalDays - 1, 0)} đêm`,
-          }}
-        />
-      </div>
-    </div>
-  </div>
-)}
+      {/* Popup Booking */}
+      {showPopup && (
+        <div className="booking-popup-overlay" onClick={handleClosePopup}>
+          <div
+            className="booking-popup-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="booking-popup-header">
+              <h4>Đặt Camping & Thuê Lều</h4>
+              <button
+                className="booking-popup-close"
+                onClick={handleClosePopup}
+              >
+                X
+              </button>
+            </div>
+            <div className="booking-popup-body">
+              <TentBookingSection
+                campingId={campingId}
+                tourDetail={{
+                  ...tourDetail,
+                  startDate: selectedStartDate,
+                  endDate: selectedEndDate,
+                  time: `${totalDays} ngày ${Math.max(totalDays - 1, 0)} đêm`,
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
       <Footer />
     </>
   );

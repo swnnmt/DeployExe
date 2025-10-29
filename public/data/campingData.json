@@ -3,10 +3,10 @@
     "id": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
     "userId": "u001",
     "campingSiteId": "camp001",
-    "campingSiteName": "Green Valley Camp",
-    "name": "Green Valley Tent Camp",
-    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
-    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
+    "campingSiteName": "Trang Thiều Camping",
+    "name": "Trang Thiều Camping",
+    "address": "Hồ Hàm Lợn, Nam Sơn, Sóc Sơn, Hà Nội",
+    "description": "Giữa lòng Sóc Sơn xanh mát, Hồ Hàm Lợn được mệnh danh là “nóc nhà Thủ đô” – nơi thiên nhiên trong lành ôm trọn bước chân người lữ khách. Tại đây, Trang Thiều Camping mang đến một không gian dừng chân đầy đủ tiện nghi nhưng vẫn giữ trọn vẻ mộc mạc của núi rừng. Bạn có thể tự do cắm trại bên hồ, ngắm bình minh vén màn sương sớm hay lặng nhìn hoàng hôn rực cháy phía xa. Những bữa tiệc nướng ấm cúng bên ánh lửa trại, những khung nhạc vang lên giữa thung lũng, những đêm quây quần cùng bạn bè… tất cả tạo nên trải nghiệm vừa hoang sơ, vừa thi vị. Trang Thiều Camping còn chăm chút cho từng nhu cầu: từ lều trại, bếp nướng, củi lửa, cho đến tắm nóng lạnh, karaoke hay thực đơn phong phú. Chỉ cần mang theo tâm hồn rộng mở, mọi thứ khác đã có nơi đây chuẩn bị sẵn. Hàm Lợn không chỉ là một chuyến đi, mà là hành trình chạm đến sự tự do và khoảng lặng bình yên giữa nhịp sống vội vã.",
     "basePrice": 120000.0,
     "thumbnail": "/assets/imageCamping/4.jpg",
     "bookedCount": 0,
@@ -48,67 +48,34 @@
     "active": true,
     "rate": 0.0,
     "createdAt": "2025-10-08T01:37:46",
-    "updatedAt": "2025-10-08T01:37:46"
-  },
-   {
-    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0999",
-    "userId": "u001",
-    "campingSiteId": "camp001",
-    "campingSiteName": "Green Valley Camp",
-    "name": "Tam Dao Camp",
-    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
-    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
-    "basePrice": 120000.0,
-    "thumbnail": "/assets/imageCamping/5.jpg",
-    "bookedCount": 0,
-    "revenue": 0.0,
-    "services": [
+    "updatedAt": "2025-10-08T01:37:46",
+    "reviews": [
       {
-        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
-        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
-        "serviceName": "BBQ ngoài trời",
-        "price": 100000.0,
-        "imageUrl": "/assets/imageCamping/services1"
+        "id": "r001",
+        "userId": "u101",
+        "userName": "Nguyen Van Anh",
+        "rating": 5,
+        "comment": "Cảnh quan tuyệt đẹp, lều rất sạch sẽ và tiện nghi.",
+        "createdAt": "2025-10-10T08:00:00"
       },
       {
-        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
-        "serviceId": null,
-        "serviceName": "Breakfast",
-        "price": 50000.0,
-        "imageUrl": "/assets/imageCamping/services3"
+        "id": "r002",
+        "userId": "u102",
+        "userName": "Tran Thi Bich",
+        "rating": 4,
+        "comment": "Địa điểm lý tưởng để nghỉ dưỡng, BBQ ngon.",
+        "createdAt": "2025-10-11T09:15:00"
       }
-    ],
-    "tents": [
-      {
-        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
-        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
-        "tentName": "Lều cho 4 người",
-        "capacity": 4,
-        "pricePerNight": 350000.0,
-        "quantity": 2,
-        "thumbnail": "/assets/imageCamping/ten4.jpg"
-      }
-    ],
-    "galleries": [
-      {
-        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
-        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
-        "imageUrl": "/assets/imageCamping/5.jpg"
-      }
-    ],
-    "active": true,
-    "rate": 0.0,
-    "createdAt": "2025-10-08T01:37:46",
-    "updatedAt": "2025-10-08T01:37:46"
+    ]
   },
   {
     "id": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
     "userId": "u001",
     "campingSiteId": "camp001",
-    "campingSiteName": "Green Valley Camp",
-    "name": "Đường Tâm Phan Camping",
+    "campingSiteName": "Khu Du lịch sinh thái Thiên Phú Lâm",
+    "name": "Khu Du lịch sinh thái Thiên Phú Lâm",
     "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
-    "description": "nơi rừng trúc xanh mượt bồng bềnh trong sương mai, nơi mỗi khóm cây như thì thầm câu chuyện của đất trời. Đến đây, bạn sẽ được chạm tay vào bình yên, hít vào không khí trong vắt của rừng sâu, nghe tiếng trúc lách cách trong gió như thể một khúc nhạc dịu nhẹ làm mềm lòng người vội.\n\nSáng sớm mở mắt, ánh nắng nhè nhẹ chạm lên đầu trúc, sương đọng trên ngọn lá, tất cả như vừa thức dậy cùng bạn. Chiều đến, bóng trúc in nghiêng dưới ánh hoàng hôn, không gian dịu dàng tựa tranh vẽ. Đêm về, giữa rừng trúc lặng thinh, tiếng lửa trại tí tách hòa lời cười nói, tiếng đàn, tiếng hát. Mọi thứ đều giản dị mà thấm sâu ký ức.\n\nThung Trúc Camping không chỉ là nơi dựng lều, ngủ giữa thiên nhiên mà là chốn để lắng lại, để nhớ, để cảm từng hơi thở trong lành và để mỗi khoảnh khắc trở thành bản thơ mềm mại của riêng bạn.\n",
+    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời. Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng. Đến với Thiên Phú Lâm, bạn sẽ cảm nhận mình như được cuốn vào một chuyến du hành nhẹ nhàng qua mây, qua thông reo, nơi mỗi khoảnh khắc là một bức tranh mềm mại, mát mẻ khí hậu thung lũng, âm vang của rừng phòng hộ được giữ nguyên nét đẹp hoang sơ, sự chăm chút trong từng dịch vụ để bạn chỉ việc thả mình. Hãy đến, để thấy lòng mình dịu lại, để hít vào không khí ngập tràn sức sống, và để những ngày giữa thiên nhiên trở thành ký ức không phai.Thiên Phú Lâm đang đón chờ bạn.",
     "basePrice": 100000.0,
     "thumbnail": "/assets/imageCamping/2.jpg",
     "bookedCount": 5,
@@ -120,20 +87,6 @@
         "serviceName": "Thêu bếp",
         "price": 20000.0,
         "imageUrl": "/assets/imageCamping/services4.jpg"
-      },
-      {
-        "id": "c8c560de-f9f2-42a7-9e60-294a42763684",
-        "serviceId": null,
-        "serviceName": "Nướng BBQ Ngoài trời",
-        "price": 100000.0,
-        "imageUrl": "/assets/imageCamping/services1.jpg"
-      },
-      {
-        "id": "d56e8f44-10d5-4159-9579-13d0e6d88494",
-        "serviceId": null,
-        "serviceName": "Thuê ghế",
-        "price": 20000.0,
-        "imageUrl": "/assets/imageCamping/services2.jpg"
       }
     ],
     "tents": [
@@ -145,15 +98,6 @@
         "pricePerNight": 100000.0,
         "quantity": 10,
         "thumbnail": "/assets/imageCamping/ten2.jpg"
-      },
-      {
-        "id": "aa55fcfa-a7eb-4350-9271-e07d36341895",
-        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "tentName": "Lều 4 người",
-        "capacity": 4,
-        "pricePerNight": 200000.0,
-        "quantity": 20,
-        "thumbnail": "/assets/imageCamping/ten4.jpg"
       }
     ],
     "galleries": [
@@ -162,212 +106,38 @@
         "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
         "imageUrl": "/assets/imageCamping/6.jpg"
       },
-      {
-        "id": "b3dd5aa7-ff5d-44b9-b9e2-3364ce231bd4",
+         {
+        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
         "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "imageUrl": "/assets/imageCamping/7.jpg"
+        "imageUrl": "/assets/imageCamping/6.jpg"
       },
-      {
-        "id": "c9dbb67a-0e01-4cb1-8f00-06dbde6f595c",
+         {
+        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
         "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "imageUrl": "/assets/imageCamping/8.jpg"
+        "imageUrl": "/assets/imageCamping/6.jpg"
       }
     ],
     "active": true,
     "rate": 4.5,
     "createdAt": "2025-10-10T09:44:06",
-    "updatedAt": "2025-10-10T09:44:06"
-  },
-   {
-    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
-    "userId": "u001",
-    "campingSiteId": "camp001",
-    "campingSiteName": "Green Valley Camp",
-    "name": "Green Valley Tent Camp",
-    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
-    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
-    "basePrice": 120000.0,
-    "thumbnail": "/assets/imageCamping/4.jpg",
-    "bookedCount": 0,
-    "revenue": 0.0,
-    "services": [
+    "updatedAt": "2025-10-10T09:44:06",
+    "reviews": [
       {
-        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
-        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
-        "serviceName": "BBQ ngoài trời",
-        "price": 100000.0,
-        "imageUrl": "/assets/imageCamping/services1"
+        "id": "r003",
+        "userId": "u103",
+        "userName": "Le Van Chuan",
+        "rating": 5,
+        "comment": "Trải nghiệm tuyệt vời, nhân viên nhiệt tình.",
+        "createdAt": "2025-10-12T10:00:00"
       },
       {
-        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
-        "serviceId": null,
-        "serviceName": "Breakfast",
-        "price": 50000.0,
-        "imageUrl": "/assets/imageCamping/services3"
+        "id": "r004",
+        "userId": "u104",
+        "userName": "Pham Thi Dung",
+        "rating": 4,
+        "comment": "Phong cảnh đẹp, chỉ có wifi hơi yếu.",
+        "createdAt": "2025-10-13T11:20:00"
       }
-    ],
-    "tents": [
-      {
-        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
-        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
-        "tentName": "Lều cho 4 người",
-        "capacity": 4,
-        "pricePerNight": 350000.0,
-        "quantity": 2,
-        "thumbnail": "/assets/imageCamping/ten4.jpg"
-      }
-    ],
-    "galleries": [
-      {
-        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
-        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
-        "imageUrl": "/assets/imageCamping/5.jpg"
-      }
-    ],
-    "active": true,
-    "rate": 0.0,
-    "createdAt": "2025-10-08T01:37:46",
-    "updatedAt": "2025-10-08T01:37:46"
-  },
-  {
-    "id": "c7376c05-c08c-43dc-9c44-8b85ee648f88",
-    "userId": "u001",
-    "campingSiteId": "camp001",
-    "campingSiteName": "Green Valley Camp",
-    "name": "Ba Vi Camping",
-    "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
-    "description": "Ba Vi Camping – nơi rừng trúc xanh mượt bồng bềnh trong sương mai, nơi mỗi khóm cây như thì thầm câu chuyện của đất trời. Đến đây, bạn sẽ được chạm tay vào bình yên, hít vào không khí trong vắt của rừng sâu, nghe tiếng trúc lách cách trong gió như thể một khúc nhạc dịu nhẹ làm mềm lòng người vội.\n\nSáng sớm mở mắt, ánh nắng nhè nhẹ chạm lên đầu trúc, sương đọng trên ngọn lá, tất cả như vừa thức dậy cùng bạn. Chiều đến, bóng trúc in nghiêng dưới ánh hoàng hôn, không gian dịu dàng tựa tranh vẽ. Đêm về, giữa rừng trúc lặng thinh, tiếng lửa trại tí tách hòa lời cười nói, tiếng đàn, tiếng hát. Mọi thứ đều giản dị mà thấm sâu ký ức.\n\nThung Trúc Camping không chỉ là nơi dựng lều, ngủ giữa thiên nhiên mà là chốn để lắng lại, để nhớ, để cảm từng hơi thở trong lành và để mỗi khoảnh khắc trở thành bản thơ mềm mại của riêng bạn.\n",
-    "basePrice": 100000.0,
-    "thumbnail": "/assets/imageCamping/9.jpg",
-    "bookedCount": 0,
-    "revenue": 0.0,
-    "services": [
-      {
-        "id": "39e4d59e-2ea3-4367-847b-7f67dd03f314",
-        "serviceId": null,
-        "serviceName": "Thuê bếp",
-        "price": 20000.0,
-        "imageUrl": "/assets/imageCamping/services4.jpg"
-      },
-      {
-        "id": "4e5d622c-1560-44b8-85c2-f05b68fa380e",
-        "serviceId": null,
-        "serviceName": "Thuê Ghế",
-        "price": 20000.0,
-        "imageUrl": "/assets/imageCamping/services2.jpg"
-      }
-    ],
-    "tents": [
-      {
-        "id": "5ed522fb-97f1-418e-91da-73895a1ef98b",
-        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
-        "tentName": "Lều 4 người",
-        "capacity": 4,
-        "pricePerNight": 400000.0,
-        "quantity": 20,
-        "thumbnail": "/assets/imageCamping/ten4.jpg"
-      },
-      {
-        "id": "c9cb80d9-f2d9-46f9-992e-6bae5df3e129",
-        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
-        "tentName": "Lều 2 người ",
-        "capacity": 2,
-        "pricePerNight": 200000.0,
-        "quantity": 10,
-        "thumbnail": "/assets/imageCamping/ten2.jpg"
-      }
-    ],
-    "galleries": [
-      {
-        "id": "12de2dac-ae76-41f4-a0a2-5813af544c87",
-        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
-        "imageUrl": "/assets/imageCamping/9.jpg"
-      },
-      {
-        "id": "2f9cac7a-b1f9-4e88-be85-533249837db8",
-        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
-        "imageUrl": "/assets/imageCamping/10.jpg"
-      },
-
-      {
-        "id": "dcec7f12-ebba-444a-a6a6-95dccfb5f82c",
-        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
-        "imageUrl": "/assets/imageCamping/11.jpg"
-      }
-    ],
-    "active": true,
-    "rate": 0.0,
-    "createdAt": "2025-10-09T15:04:10",
-    "updatedAt": "2025-10-09T15:04:10"
-  },
-  {
-    "id": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
-    "userId": "u001",
-    "campingSiteId": "camp001",
-    "campingSiteName": "Green Valley Camp",
-    "name": "Trang Thiều Camping",
-    "address": "Hồ Hàm Lợn, Nam Sơn, Sóc Sơn, Hà Nội",
-    "description": "Giữa lòng Sóc Sơn xanh mát, Hồ Hàm Lợn được mệnh danh là “nóc nhà Thủ đô” – nơi thiên nhiên trong lành ôm trọn bước chân người lữ khách. Tại đây, Trang Thiều Camping mang đến một không gian dừng chân đầy đủ tiện nghi nhưng vẫn giữ trọn vẻ mộc mạc của núi rừng.\n\nBạn có thể tự do cắm trại bên hồ, ngắm bình minh vén màn sương sớm hay lặng nhìn hoàng hôn rực cháy phía xa. Những bữa tiệc nướng ấm cúng bên ánh lửa trại, những khung nhạc vang lên giữa thung lũng, những đêm quây quần cùng bạn bè… tất cả tạo nên trải nghiệm vừa hoang sơ, vừa thi vị.\n\nTrang Thiều Camping còn chăm chút cho từng nhu cầu: từ lều trại, bếp nướng, củi lửa, cho đến tắm nóng lạnh, karaoke hay thực đơn phong phú. Chỉ cần mang theo tâm hồn rộng mở, mọi thứ khác đã có nơi đây chuẩn bị sẵn.\n\nHàm Lợn không chỉ là một chuyến đi, mà là hành trình chạm đến sự tự do và khoảng lặng bình yên giữa nhịp sống vội vã.",
-    "basePrice": 100000.0,
-    "thumbnail": "/assets/imageCamping/1.jpg",
-    "bookedCount": 0,
-    "revenue": 0.0,
-    "services": [
-      {
-        "id": "05293fa9-08ff-4581-a261-ac3b42e0b511",
-        "serviceId": null,
-        "serviceName": "Thuê bếp",
-        "price": 50000.0,
-        "imageUrl": "/assets/imageCamping/services4.jpg"
-      },
-      {
-        "id": "ab1b3cd0-fb55-47ea-a821-41db9e635797",
-        "serviceId": null,
-        "serviceName": "Thuê ghế",
-        "price": 30000.0,
-        "imageUrl": "/assets/imageCamping/services2.jpg"
-      }
-    ],
-    "tents": [
-      {
-        "id": "0d60a767-44ba-4fe9-9e1b-d28a54f2ceb1",
-        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
-        "tentName": "Lều 2 người",
-        "capacity": 2,
-        "pricePerNight": 100000.0,
-        "quantity": 10,
-        "thumbnail": "/assets/imageCamping/ten2.jpg"
-      },
-      {
-        "id": "393a756e-b1fc-4057-8265-b6ac9a46d915",
-        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
-        "tentName": "Lều 4 người",
-        "capacity": 4,
-        "pricePerNight": 200000.0,
-        "quantity": 5,
-        "thumbnail": "/assets/imageCamping/ten4.jpg"
-      }
-    ],
-    "galleries": [
-      {
-        "id": "4c1459ec-734a-477b-8886-495b0dbf1f96",
-        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
-        "imageUrl": "/assets/imageCamping/12.jpg"
-      },
-      {
-        "id": "a80b486b-0c17-4dae-a466-edb041f17192",
-        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
-        "imageUrl":"/assets/imageCamping/13.jpg"
-      },
-      {
-        "id": "ab998ebc-bcdb-4cb9-90a3-5c0bd9cf8eed",
-        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
-        "imageUrl": "/assets/imageCamping/14.jpg"
-      }
-    ],
-    "active": true,
-    "rate": 0.0,
-    "createdAt": "2025-10-09T05:52:20",
-    "updatedAt": "2025-10-09T05:52:20"
+    ]
   }
 ]

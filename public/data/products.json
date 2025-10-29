@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "productName": "Bếp nướng",
+    "productImage": "/assets/imageCamping/product1.jpg",
+    "price": 1500000,
+    "quantity": 5,
+    "description": "Bếp nướng ngoài trời.",
+    "phone": "0912345678",
+    "facebookLink": "https://facebook.com/product1"
+  },
+  {
+    "id": "2",
+    "productName": "Ghếp gấp ngoài trời",
+    "productImage": "/assets/imageCamping/product2.jpg",
+    "price": 3200000,
+    "quantity": 3,
+    "description": "Ghếp gấp ngoài trời",
+    "phone": "0987654321",
+    "facebookLink": "https://facebook.com/product2"
+  },
+  {
+    "id": "3",
+    "productName": "Túi đồ dã ngoại",
+    "productImage": "/assets/imageCamping/product3.webp",
+    "price": 750000,
+    "quantity": 10,
+    "description": "Đèn bàn phong cách hiện đại, ánh sáng ấm áp.",
+    "phone": "0901234567",
+    "facebookLink": "https://facebook.com/product3"
+  }
+]
