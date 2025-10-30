@@ -6,27 +6,114 @@
     "price": 1500000,
     "quantity": 5,
     "description": "Bếp nướng ngoài trời.",
-    "phone": "0912345678",
+    "phone": "0968123456",
     "facebookLink": "https://facebook.com/product1"
   },
   {
     "id": "2",
     "productName": "Ghếp gấp ngoài trời",
     "productImage": "/assets/imageCamping/product2.jpg",
-    "price": 3200000,
+    "price": 120000,
     "quantity": 3,
     "description": "Ghếp gấp ngoài trời",
-    "phone": "0987654321",
+    "phone": "0374567890",
     "facebookLink": "https://facebook.com/product2"
   },
   {
     "id": "3",
     "productName": "Túi đồ dã ngoại",
     "productImage": "/assets/imageCamping/product3.webp",
-    "price": 750000,
+    "price": 150000,
     "quantity": 10,
     "description": "Đèn bàn phong cách hiện đại, ánh sáng ấm áp.",
-    "phone": "0901234567",
+    "phone": "0912345678",
     "facebookLink": "https://facebook.com/product3"
+  },
+   {
+    "id": "4",
+    "productName": "Balo trekking",
+    "productImage": "/assets/imageCamping/product9.jpg",
+    "price": 200000,
+    "quantity": 5,
+    "description": "Balo lớn, chống nước, phù hợp đi trekking dài ngày.",
+    "phone": "0987654321",
+    "facebookLink": "https://facebook.com/product1"
+  }, {
+    "id": "5",
+    "productName": "Bàn gấp dã ngoại",
+    "productImage": "/assets/imageCamping/product10.jpg",
+    "price": 300000,
+    "quantity": 5,
+    "description": "Bàn gấp tiện lợi cho cắm trại, nhẹ và chắc chắn.",
+    "phone": "0356789123",
+    "facebookLink": "https://facebook.com/product1"
+  }, {
+    "id": "6",
+    "productName": "Đèn pin đa năng",
+    "productImage": "/assets/imageCamping/product11.png",
+    "price": 150000,
+    "quantity": 5,
+    "description": "Bếp nướng ngoài trời.",
+    "phone": "0932145678",
+    "facebookLink": "https://facebook.com/product1"
+  }, {
+    "id": "7",
+    "productName": "Lều dã ngoại",
+    "productImage": "/assets/imageCamping/product12.webp",
+    "price": 1500000,
+    "quantity": 5,
+    "description": "Lều 2-3 người, dễ dàng lắp đặt và gấp gọn.",
+    "phone": "0701234567",
+    "facebookLink": "https://facebook.com/product1"
+  },
+   {
+    "id": "8",
+    "productName": "Túi ngủ",
+    "productImage": "/assets/imageCamping/product8.jpg",
+    "price": 1500000,
+    "quantity": 5,
+    "description": "Tú ngủ camping.",
+    "phone": "0897654321",
+    "facebookLink": "https://facebook.com/product1"
+  },
+   {
+    "id": "9",
+    "productName": "Ấm nước campingg",
+    "productImage": "/assets/imageCamping/product7.webp",
+    "price": 150000,
+    "quantity": 5,
+    "description": "Ấm đun nước",
+    "phone": "0978123456",
+    "facebookLink": "https://facebook.com/product1"
+  },
+   {
+    "id": "10",
+    "productName": "Kayak",
+    "productImage": "/assets/imageCamping/product6.jpg",
+    "price": 2400000,
+    "quantity": 5,
+    "description": "Thuyền kayak 1 người",
+    "phone": "0324567891",
+    "facebookLink": "https://facebook.com/product1"
+  },
+   {
+    "id": "11",
+    "productName": "Bếp nướng",
+    "productImage": "/assets/imageCamping/product5.webp",
+    "price": 500000,
+    "quantity": 5,
+    "description": "Bếp nướng ngoài trời.",
+    "phone": "0381234567",
+    "facebookLink": "https://facebook.com/product1"
+  },
+   {
+    "id": "12",
+    "productName": "Đèn camping",
+    "productImage": "/assets/imageCamping/product4.webp",
+    "price": 200000,
+    "quantity": 5,
+    "description": "Bếp nướng ngoài trời.",
+    "phone": "0909876543",
+    "facebookLink": "https://facebook.com/product1"
   }
 ]

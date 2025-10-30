@@ -96,7 +96,8 @@ export default function HomePage() {
                   </div>
                   <div className="destination-footer">
                     <span className="price">
-                      <span>{tour.basePrice}</span> VND / người
+                       <span>{tour.basePrice.toLocaleString() ?? 0}</span> VND /
+                      người
                     </span>
                     <Link
                       to={`/camping-detail/${tour.id}`}
@@ -152,31 +153,13 @@ export default function HomePage() {
                 </div>
                 <div className="row">
                   <div className="col-6">
-                    <div className="counter-item counter-text-wrap">
-                      <span
-                        className="count-text k-plus"
-                        data-speed="2000"
-                        data-stop="1"
-                      >
-                        3
-                      </span>
-                      <span className="counter-title">Điểm đến phổ biến</span>
-                    </div>
+          
                   </div>
                   <div className="col-6">
-                    <div className="counter-item counter-text-wrap">
-                      <span
-                        className="count-text m-plus"
-                        data-speed="3000"
-                        data-stop="8"
-                      >
-                        1
-                      </span>
-                      <span className="counter-title">Khách hàng hài lòng</span>
-                    </div>
+                   
                   </div>
                 </div>
-                <Link to="/destination" className="theme-btn mt-10 style-two">
+                <Link to="/tours" className="theme-btn mt-10 style-two">
                   <span data-hover="Khám phá Điểm đến">
                     Khám phá Điểm đến
                   </span>

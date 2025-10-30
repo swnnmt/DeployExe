@@ -65,7 +65,7 @@ export default function FooterHome() {
         backgroundImage: `url("/assets/images/backgrounds/footer.jpg")`,
       }}
     >
-      <div className="container">
+      {/* <div className="container">
         <div className="footer-top pt-100 pb-30">
           <div className="row justify-content-between">
             <div
@@ -141,8 +141,8 @@ export default function FooterHome() {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <div className="widget-area pt-95 pb-45">
         <div className="container">
           <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2">
@@ -219,7 +219,7 @@ export default function FooterHome() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="footer-bottom pt-20 pb-5">
         <div className="container">
@@ -230,7 +230,7 @@ export default function FooterHome() {
               </p>
             </div>
             <div className="col-lg-7 text-center text-lg-end">
-              <ul className="footer-bottom-nav">
+              {/* <ul className="footer-bottom-nav">
                 <li>
                   <Link to="/about">Điều khoản</Link>
                 </li>
@@ -243,7 +243,7 @@ export default function FooterHome() {
                 <li>
                   <Link to="/about">Khả năng truy cập</Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <button className="scroll-top scroll-to-target" data-target="html">

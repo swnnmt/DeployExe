@@ -78,7 +78,7 @@ const ContactPage = () => {
                       <i className="fab fa-facebook-f"></i>
                     </div>
                     <div className="content">
-                      <h5>Fan page</h5>
+                      <h5>Fanpage</h5>
                       <div className="text">
                         <i className="fab fa-facebook"></i>{" "}
                         <a
@@ -124,7 +124,7 @@ const ContactPage = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          0901 234 567
+                          0945513034
                         </a>
                       </div>
                     </div>

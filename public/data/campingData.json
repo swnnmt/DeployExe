@@ -3,12 +3,257 @@
     "id": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
     "userId": "u001",
     "campingSiteId": "camp001",
-    "campingSiteName": "Trang Thiều Camping",
-    "name": "Trang Thiều Camping",
-    "address": "Hồ Hàm Lợn, Nam Sơn, Sóc Sơn, Hà Nội",
-    "description": "Giữa lòng Sóc Sơn xanh mát, Hồ Hàm Lợn được mệnh danh là “nóc nhà Thủ đô” – nơi thiên nhiên trong lành ôm trọn bước chân người lữ khách. Tại đây, Trang Thiều Camping mang đến một không gian dừng chân đầy đủ tiện nghi nhưng vẫn giữ trọn vẻ mộc mạc của núi rừng. Bạn có thể tự do cắm trại bên hồ, ngắm bình minh vén màn sương sớm hay lặng nhìn hoàng hôn rực cháy phía xa. Những bữa tiệc nướng ấm cúng bên ánh lửa trại, những khung nhạc vang lên giữa thung lũng, những đêm quây quần cùng bạn bè… tất cả tạo nên trải nghiệm vừa hoang sơ, vừa thi vị. Trang Thiều Camping còn chăm chút cho từng nhu cầu: từ lều trại, bếp nướng, củi lửa, cho đến tắm nóng lạnh, karaoke hay thực đơn phong phú. Chỉ cần mang theo tâm hồn rộng mở, mọi thứ khác đã có nơi đây chuẩn bị sẵn. Hàm Lợn không chỉ là một chuyến đi, mà là hành trình chạm đến sự tự do và khoảng lặng bình yên giữa nhịp sống vội vã.",
+    "campingSiteName": "Camping Sport - Cắm Trại Đồng Mô",
+    "name": "Camping Sport - Cắm Trại Đồng Mô",
+    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
+    "description": "Camping Sport – Cắm Trại Đồng Mô là nơi thiên nhiên xanh mát ôm trọn hồ nước yên bình, đưa bạn thoát khỏi phố xá ồn ào để tìm về khoảng lặng đầy thi vị. Không gian lưu trú tại đây đa dạng và đầy chất thơ: từ những căn nhà sàn cộng đồng, lều trại mộc mạc đến Glamping tiện nghi với lều Mông Cổ độc đáo. Mỗi sớm mai, chỉ cần mở mắt là bạn đã thấy ánh nắng trong veo phủ lên mặt hồ, nghe tiếng chim rừng gọi ngày mới. Camping Sport còn là điểm hẹn lý tưởng cho những buổi team building, workshop, tiệc BBQ hay sự kiện ngoài trời. Mọi chi tiết từ âm thanh, ánh sáng cho đến kịch bản đều được chuẩn bị chu đáo, để bạn chỉ cần thả hồn vào niềm vui cùng bạn bè và đồng nghiệp. Ẩm thực nơi đây cũng để lại ấn tượng khó quên: gà nướng thơm lừng, lẩu cá nóng hổi hay những bữa BBQ dưới ánh lửa trại, tất cả như hòa cùng hương rừng gió hồ, khiến từng bữa ăn trở thành kỷ niệm. Chỉ cách Hà Nội chưa đầy một giờ đi xe, Camping Sport – Cắm Trại Đồng Mô mở ra một hành trình nhẹ nhàng và đáng nhớ. Hãy đến để sống chậm, để cảm nhận thiên nhiên và để từng khoảnh khắc đều hóa thành thơ.",
     "basePrice": 120000.0,
     "thumbnail": "/assets/imageCamping/4.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
+        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
+        "serviceName": "BBQ ngoài trời",
+        "price": 100000.0,
+        "imageUrl": "/assets/imageCamping/services1"
+      },
+      {
+        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
+        "serviceId": null,
+        "serviceName": "Breakfast",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services3"
+      }
+    ],
+    "tents": [
+      {
+        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "tentName": "Lều cho 4 người",
+        "capacity": 4,
+        "pricePerNight": 350000.0,
+        "quantity": 2,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/5.jpg"
+      },
+       {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3111",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/31.jpg"
+      },
+       {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3123",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/32.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-08T01:37:46",
+    "updatedAt": "2025-10-08T01:37:46",
+     "reviews": [
+        {
+        "id": "r009",
+        "userId": "u109",
+        "userName": "Hoang Van Duy",
+        "rating": 4,
+        "comment": "Thích hợp cho nhóm bạn, có nhiều trò chơi ngoài trời thú vị.",
+        "createdAt": "2025-10-18T11:50:00"
+      }
+    ]
+  },
+   {
+    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0999",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Khu Du lịch sinh thái Thiên Phú Lâm",
+    "name": "Khu Du lịch sinh thái Thiên Phú Lâm",
+    "address": "Đà Lạt, Lâm Đồng, Việt Nam",
+    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời.Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng.",
+    "basePrice": 120000.0,
+    "thumbnail": "/assets/imageCamping/5.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "2fe427e2-3521-4b82-b9ce-10daaea9f762",
+        "serviceId": "c9e5930d-b220-4dde-98b0-63637bf447f9",
+        "serviceName": "BBQ ngoài trời",
+        "price": 100000.0,
+        "imageUrl": "/assets/imageCamping/services1"
+      },
+      {
+        "id": "bafa8c98-5c23-46a1-912c-73d5a44d1426",
+        "serviceId": null,
+        "serviceName": "Breakfast",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services3"
+      }
+    ],
+    "tents": [
+      {
+        "id": "3e457256-1411-4aa0-a7ef-524ba16e1d9a",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "tentName": "Lều cho 4 người",
+        "capacity": 4,
+        "pricePerNight": 350000.0,
+        "quantity": 2,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3c93",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/5.jpg"
+      },
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad3837",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/28.jpg"
+      },
+      {
+        "id": "39a802bb-8fdb-4107-983e-183867ad8362",
+        "campingId": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+        "imageUrl": "/assets/imageCamping/29.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-08T01:37:46",
+    "updatedAt": "2025-10-08T01:37:46",
+     "reviews": [
+      {
+        "id": "r003",
+        "userId": "u103",
+        "userName": "Le Van Chuan",
+        "rating": 5,
+        "comment": "Trải nghiệm tuyệt vời, nhân viên nhiệt tình.",
+        "createdAt": "2025-10-12T10:00:00"
+      },
+      {
+        "id": "r004",
+        "userId": "u104",
+        "userName": "Pham Thi Dung",
+        "rating": 4,
+        "comment": "Không khí thoải mái, nhiều trải nghiệm thú vị",
+        "createdAt": "2025-10-13T11:20:00"
+      },
+       {
+        "id": "r006",
+        "userId": "u106",
+        "userName": "Tran Thi Hoa",
+        "rating": 4,
+        "comment": "Không gian yên tĩnh, BBQ ngon nhưng hơi đông vào cuối tuần.",
+        "createdAt": "2025-10-15T09:45:00"
+      }
+    ]
+  },
+  {
+    "id": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Núi Trầm",
+    "name": "Núi Trầm",
+    "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
+    "description": "Nơi đây nổi tiếng với cảnh quan hoang sơ, hùng vĩ của những vách đá cheo leo và những cung đường mòn mềm mại, là điểm đến lý tưởng cho hoạt động dã ngoại, cắm trại, trekking và chụp ảnh. Ngoài ra, Núi Trầm còn gắn liền với di tích lịch sử quan trọng, nơi Chủ tịch Hồ Chí Minh đã đọc Lời kêu gọi toàn quốc kháng chiến, và có quần thể ba ngôi chùa cổ kính: chùa Trầm, chùa Hang và chùa Vô Vi. ",
+    "basePrice": 100000.0,
+    "thumbnail": "/assets/imageCamping/2.jpg",
+    "bookedCount": 5,
+    "revenue": 500000.0,
+    "services": [
+      {
+        "id": "5ac6b48e-9725-4ea7-b40e-fc3df9782c54",
+        "serviceId": null,
+        "serviceName": "Thêu bếp",
+        "price": 20000.0,
+        "imageUrl": "/assets/imageCamping/services4.jpg"
+      },
+      {
+        "id": "c8c560de-f9f2-42a7-9e60-294a42763684",
+        "serviceId": null,
+        "serviceName": "Nướng BBQ Ngoài trời",
+        "price": 100000.0,
+        "imageUrl": "/assets/imageCamping/services1.jpg"
+      },
+      {
+        "id": "d56e8f44-10d5-4159-9579-13d0e6d88494",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 20000.0,
+        "imageUrl": "/assets/imageCamping/services2.jpg"
+      }
+    ],
+    "tents": [
+      {
+        "id": "3bf106fa-6388-4534-8996-b7762432a7bd",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "/assets/imageCamping/ten2.jpg"
+      },
+      {
+        "id": "aa55fcfa-a7eb-4350-9271-e07d36341895",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 20,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "imageUrl": "/assets/imageCamping/6.jpg"
+      },
+      {
+        "id": "b3dd5aa7-ff5d-44b9-b9e2-3364ce231bd4",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "imageUrl": "/assets/imageCamping/7.jpg"
+      },
+      {
+        "id": "c9dbb67a-0e01-4cb1-8f00-06dbde6f595c",
+        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+        "imageUrl": "/assets/imageCamping/8.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 4.5,
+    "createdAt": "2025-10-10T09:44:06",
+    "updatedAt": "2025-10-10T09:44:06",
+    "reviews": [
+      {
+        "id": "r001",
+        "userId": "u101",
+        "userName": "Nguyen Van Anh",
+        "rating": 5,
+        "comment": "Cảnh quan tuyệt đẹp, lều rất sạch sẽ và tiện nghi.",
+        "createdAt": "2025-10-10T08:00:00"
+      }
+    ]
+  },
+   {
+    "id": "8c6fff9b-53d2-4af9-b571-32956d5e0147",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Amor La Vida",
+    "name": "Amor La Vida",
+    "address": "Thôn Quê Vải (Mặt hồ Cố Đụng)- Xã Tiến Xuân- Huyện Thạch Thất, Hanoi, Vietnam",
+    "description": "Amor La Vida Lakeside Valley được ví như “Viên ngọc xanh” giữa lòng Thạch Thất, tọa lạc tại xã Cố Đụng, huyện Thạch Thất, Hà Nội. Chỉ cách trung tâm Hà Nội hơn 35km, Amor La Vida Lakeside Valley là điểm đến lý tưởng cho những ai yêu thiên nhiên và muốn “đi trốn” cuối tuần. Khu nghỉ dưỡng rộng hơn 8.000m² nằm ngay bên hồ Cố Đụng, được bao quanh bởi núi Vua Bà và rừng nguyên sinh mát lành, mang đến không gian trong lành và cảnh quan thơ mộng. Tại đây, bạn có thể cắm trại bên hồ, chèo thuyền kayak, tham quan Amor Farm, hoặc đơn giản là tận hưởng khoảnh khắc bình yên giữa thiên nhiên. Khuôn viên còn có nhiều tiện ích như bể bơi vô cực, phòng xông hơi, bếp BBQ, bi-a, bi lắc và vô vàn góc check-in nổi tiếng như “Nấc thang lên thiên đường” hay “Bãi đá cô đơn”. Amor La Vida không chỉ là một điểm nghỉ dưỡng, mà còn là nơi bạn có thể tận hưởng trọn vẹn trải nghiệm du lịch kết hợp giải trí, phù hợp cho cả nhóm bạn, gia đình hay các cặp đôi muốn tìm một nơi thư giãn, vui chơi và “sống ảo” thả ga.",
+    "basePrice": 120000.0,
+    "thumbnail": "/assets/imageCamping/15.jpg",
     "bookedCount": 0,
     "revenue": 0.0,
     "services": [
@@ -69,59 +314,162 @@
     ]
   },
   {
-    "id": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
+    "id": "c7376c05-c08c-43dc-9c44-8b85ee648f88",
     "userId": "u001",
     "campingSiteId": "camp001",
-    "campingSiteName": "Khu Du lịch sinh thái Thiên Phú Lâm",
-    "name": "Khu Du lịch sinh thái Thiên Phú Lâm",
-    "address": "Phú Liễn, Hợp Tiến, Mỹ Đức, Hanoi, Vietnam",
-    "description": "Thiên Phú Lâm – nơi rừng thông nguyên sinh ngút ngàn ôm ấp chân trời Sóc Sơn, tựa như một bản giao hưởng của thiên nhiên mời gọi từng bước chân tìm về. Hãy để hơi sương sáng len qua mái lá, để gió thung lũng cuốn đi phiền muộn, để bạn và bạn bè bên đống lửa ấm, giữa không gian rừng già lặng lẽ mà chan chứa hơi thở đất trời. Ở Thiên Phú Lâm, ngàn thông reo trong tiếng gió, cây cối thì thầm bí mật của đất mốc, và ánh nắng ban mai thức giấc rải vàng trên lưng núi. Tất cả như một bản tình ca được thiên nhiên viết riêng cho mỗi tâm hồn biết dừng lại. Trên 20ha xanh tươi ấy, bạn có thể trải chiếu bên hồ, dựng lều giữa rừng, tận hưởng BBQ trong khói bếp lửa và tiếng cười lan man, hay tổ chức sự kiện giữa không gian đầy thơ với homestay ấm cúng. Đến với Thiên Phú Lâm, bạn sẽ cảm nhận mình như được cuốn vào một chuyến du hành nhẹ nhàng qua mây, qua thông reo, nơi mỗi khoảnh khắc là một bức tranh mềm mại, mát mẻ khí hậu thung lũng, âm vang của rừng phòng hộ được giữ nguyên nét đẹp hoang sơ, sự chăm chút trong từng dịch vụ để bạn chỉ việc thả mình. Hãy đến, để thấy lòng mình dịu lại, để hít vào không khí ngập tràn sức sống, và để những ngày giữa thiên nhiên trở thành ký ức không phai.Thiên Phú Lâm đang đón chờ bạn.",
-    "basePrice": 100000.0,
-    "thumbnail": "/assets/imageCamping/2.jpg",
-    "bookedCount": 5,
-    "revenue": 500000.0,
+    "campingSiteName": "Sơn Tinh Camp",
+    "name": "Sơn Tinh Camp",
+    "address": "Thuộc địa phận thôn Muồng Cháu, xã Vân Hòa, huyện Ba Vì,  Hà Nội",
+    "description": "Bạn đang tìm một nơi để rời xa khói bụi thành phố, nạp lại năng lượng sau những ngày làm việc căng thẳng? Sơn Tinh Camp nằm tại xã Vân Hòa, huyện Ba Vì chính là điểm đến lý tưởng. Nằm giữa rừng Ba Vì xanh mát, khu dã ngoại rộng tới 7ha với những bãi cỏ trải dài, hồ nước trong lành và không gian thoáng đãng mang đến cảm giác bình yên, thư giãn. Tại đây, bạn có thể cắm trại, tổ chức team building với hơn 30 kịch bản đa dạng, tham gia trekking, chơi bắn súng sơn, thử sức với khu trải nghiệm Sasuke, chèo bè, bãi bùn… và tận hưởng những khoảnh khắc vui vẻ cùng bạn bè, gia đình hoặc đồng nghiệp. Buổi sáng ở Sơn Tinh Camp, bạn sẽ được thức dậy giữa tiếng chim hót, hít thở bầu không khí trong lành và chiêm ngưỡng ánh bình minh rực rỡ trên mặt hồ – một trải nghiệm chắc chắn khiến bạn muốn quay lại lần nữa.",    "basePrice": 100000.0,
+    "thumbnail": "/assets/imageCamping/9.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
     "services": [
       {
-        "id": "5ac6b48e-9725-4ea7-b40e-fc3df9782c54",
+        "id": "39e4d59e-2ea3-4367-847b-7f67dd03f314",
         "serviceId": null,
-        "serviceName": "Thêu bếp",
+        "serviceName": "Thuê bếp",
         "price": 20000.0,
         "imageUrl": "/assets/imageCamping/services4.jpg"
+      },
+      {
+        "id": "4e5d622c-1560-44b8-85c2-f05b68fa380e",
+        "serviceId": null,
+        "serviceName": "Thuê Ghế",
+        "price": 20000.0,
+        "imageUrl": "/assets/imageCamping/services2.jpg"
       }
     ],
     "tents": [
       {
-        "id": "3bf106fa-6388-4534-8996-b7762432a7bd",
-        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "tentName": "Lều 2 người",
+        "id": "5ed522fb-97f1-418e-91da-73895a1ef98b",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 400000.0,
+        "quantity": 20,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      },
+      {
+        "id": "c9cb80d9-f2d9-46f9-992e-6bae5df3e129",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "tentName": "Lều 2 người ",
         "capacity": 2,
-        "pricePerNight": 100000.0,
+        "pricePerNight": 200000.0,
         "quantity": 10,
         "thumbnail": "/assets/imageCamping/ten2.jpg"
       }
     ],
     "galleries": [
       {
-        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
-        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "imageUrl": "/assets/imageCamping/6.jpg"
+        "id": "12de2dac-ae76-41f4-a0a2-5813af544c87",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "imageUrl": "/assets/imageCamping/9.jpg"
       },
-         {
-        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
-        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "imageUrl": "/assets/imageCamping/6.jpg"
+      {
+        "id": "2f9cac7a-b1f9-4e88-be85-533249837db8",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "imageUrl": "/assets/imageCamping/10.jpg"
       },
-         {
-        "id": "32eff282-14c7-4f1e-8c52-89131f370690",
-        "campingId": "b5126a50-55ce-4e6d-a830-b3b92604d1d7",
-        "imageUrl": "/assets/imageCamping/6.jpg"
+
+      {
+        "id": "dcec7f12-ebba-444a-a6a6-95dccfb5f82c",
+        "campingId": "c7376c05-c08c-43dc-9c44-8b85ee648f11",
+        "imageUrl": "/assets/imageCamping/11.jpg"
       }
     ],
     "active": true,
-    "rate": 4.5,
-    "createdAt": "2025-10-10T09:44:06",
-    "updatedAt": "2025-10-10T09:44:06",
-    "reviews": [
+    "rate": 0.0,
+    "createdAt": "2025-10-09T15:04:10",
+    "updatedAt": "2025-10-09T15:04:10",
+     "reviews": [
+      {
+        "id": "r003",
+        "userId": "u103",
+        "userName": "Le Van Chuan",
+        "rating": 5,
+        "comment": "Trải nghiệm tuyệt vời, nhân viên nhiệt tình.",
+        "createdAt": "2025-10-12T10:00:00"
+      },
+        {
+    "id": "r010",
+    "userId": "u110",
+    "userName": "Nguyen Thi Mai",
+    "rating": 5,
+    "comment": "Một nơi tuyệt vời để nghỉ ngơi, nhân viên thân thiện và nhiệt tình.",
+    "createdAt": "2025-10-19T09:00:00"
+  }
+    ]
+  },
+  {
+    "id": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Đóm Glambing Ba Vì",
+    "name": "Đóm Glambing Ba Vì",
+    "address": "Thôn Bơn, Vân Hoà, Ba Vì, Hà Nội, Hanoi, Vietnam",
+    "description": "Đóm Glamping Ba Vì – “Trạm dừng bình yên” giữa lòng thiên nhiên Chỉ cách Hà Nội khoảng 40km, Đóm Glamping là điểm đến lý tưởng cho những ai muốn rời xa ồn ào phố thị và tìm về sự bình yên. Nằm ngay bên hồ Đập Đống, khu cắm trại được bao quanh bởi mặt hồ rộng và núi non xanh mát, mang đến một không gian mở, trong lành và cực kỳ “chill”. Tại Đóm, bạn có thể cắm trại qua đêm, đốt lửa trại, tổ chức BBQ, thưởng thức ly cà phê bên hồ, hay tham gia những hoạt động thú vị như chèo thuyền kayak, bắn cung, câu cá, picnic, và cả team building cho nhóm bạn hoặc công ty. Khu vực lưu trú, phòng tắm, khu vệ sinh đều được chăm chút sạch sẽ và đầy đủ tiện nghi, đảm bảo trải nghiệm thoải mái nhất cho du khách. Với không gian xanh, dịch vụ đa dạng và nhiều góc check-in cực đẹp, Đóm Glamping Ba Vì không chỉ là nơi vui chơi mà còn là một “trạm nghỉ” chữa lành, giúp bạn tái tạo năng lượng và tận hưởng trọn vẹn thiên nhiên.",   "basePrice": 100000.0,
+    "thumbnail": "/assets/imageCamping/1.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "05293fa9-08ff-4581-a261-ac3b42e0b511",
+        "serviceId": null,
+        "serviceName": "Thuê bếp",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services4.jpg"
+      },
+      {
+        "id": "ab1b3cd0-fb55-47ea-a821-41db9e635797",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 30000.0,
+        "imageUrl": "/assets/imageCamping/services2.jpg"
+      }
+    ],
+    "tents": [
+      {
+        "id": "0d60a767-44ba-4fe9-9e1b-d28a54f2ceb1",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "/assets/imageCamping/ten2.jpg"
+      },
+      {
+        "id": "393a756e-b1fc-4057-8265-b6ac9a46d915",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 5,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "4c1459ec-734a-477b-8886-495b0dbf1f96",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/12.jpg"
+      },
+      {
+        "id": "a80b486b-0c17-4dae-a466-edb041f17192",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl":"/assets/imageCamping/13.jpg"
+      },
+      {
+        "id": "ab998ebc-bcdb-4cb9-90a3-5c0bd9cf8eed",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/14.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-09T05:52:20",
+    "updatedAt": "2025-10-09T05:52:20",
+     "reviews": [
       {
         "id": "r003",
         "userId": "u103",
@@ -138,6 +486,274 @@
         "comment": "Phong cảnh đẹp, chỉ có wifi hơi yếu.",
         "createdAt": "2025-10-13T11:20:00"
       }
+    ]
+  },
+  {
+    "id": "fc9e3b0c-244f-4db2-9e11-c034c3e2d847",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Sao đen Camping Ba Vì",
+    "name": "Sao đen Camping Ba Vì",
+    "address": "Chỉ cách Hà Nội khoảng 1 giờ di chuyển, Sao Đen Camping là điểm đến lý tưởng cho những ai muốn đổi gió cuối tuần. Nằm giữa rừng cây sao đen mát rượi, nơi đây sở hữu 30 căn lều phong cách Boho cực xinh, được setup theo combo trọn gói “ngon – bổ – hợp lý” giúp bạn tận hưởng chuyến nghỉ ngắn mà không phải lo chuẩn bị quá nhiều. Sao Đen Camping có hai khu lều cho bạn lựa chọn: 🌿 Khu lều ngoài trời: Có sân khấu, bếp nướng, thích hợp tổ chức team building, BBQ, sự kiện, show nhạc buổi tối – mang đến không khí sôi động và vui tươi. 🌲 Khu lều trong rừng: Không gian yên tĩnh, mát lành, cực phù hợp cho những ai muốn chill cùng thiên nhiên và tận hưởng sự bình yên. Ngoài ra, bạn có thể yêu cầu setup trang trí sinh nhật, cầu hôn, họp lớp để biến chuyến đi thành kỷ niệm đáng nhớ. Không gian thoáng đãng, lều trại xinh xắn và bầu không khí mát mẻ chắc chắn sẽ khiến bạn muốn quay lại lần nữa.",   "description": "Đóm Glamping Ba Vì – “Trạm dừng bình yên” giữa lòng thiên nhiên Chỉ cách Hà Nội khoảng 40km, Đóm Glamping là điểm đến lý tưởng cho những ai muốn rời xa ồn ào phố thị và tìm về sự bình yên. Nằm ngay bên hồ Đập Đống, khu cắm trại được bao quanh bởi mặt hồ rộng và núi non xanh mát, mang đến một không gian mở, trong lành và cực kỳ “chill”. Tại Đóm, bạn có thể cắm trại qua đêm, đốt lửa trại, tổ chức BBQ, thưởng thức ly cà phê bên hồ, hay tham gia những hoạt động thú vị như chèo thuyền kayak, bắn cung, câu cá, picnic, và cả team building cho nhóm bạn hoặc công ty. Khu vực lưu trú, phòng tắm, khu vệ sinh đều được chăm chút sạch sẽ và đầy đủ tiện nghi, đảm bảo trải nghiệm thoải mái nhất cho du khách. Với không gian xanh, dịch vụ đa dạng và nhiều góc check-in cực đẹp, Đóm Glamping Ba Vì không chỉ là nơi vui chơi mà còn là một “trạm nghỉ” chữa lành, giúp bạn tái tạo năng lượng và tận hưởng trọn vẹn thiên nhiên.",   "basePrice": 100000.0,
+    "thumbnail": "/assets/imageCamping/16.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "05293fa9-08ff-4581-a261-ac3b42e0b511",
+        "serviceId": null,
+        "serviceName": "Thuê bếp",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services4.jpg"
+      },
+      {
+        "id": "ab1b3cd0-fb55-47ea-a821-41db9e635797",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 30000.0,
+        "imageUrl": "/assets/imageCamping/services2.jpg"
+      }
+    ],
+    "tents": [
+      {
+        "id": "0d60a767-44ba-4fe9-9e1b-d28a54f2ceb1",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "/assets/imageCamping/ten2.jpg"
+      },
+      {
+        "id": "393a756e-b1fc-4057-8265-b6ac9a46d915",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 5,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "4c1459ec-734a-477b-8886-495b0dbf1f96",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/17.jpg"
+      },
+      {
+        "id": "a80b486b-0c17-4dae-a466-edb041f17192",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl":"/assets/imageCamping/18.jpg"
+      },
+      {
+        "id": "ab998ebc-bcdb-4cb9-90a3-5c0bd9cf8eed",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/19.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-09T05:52:20",
+    "updatedAt": "2025-10-09T05:52:20",
+     "reviews": [
+      {
+        "id": "r003",
+        "userId": "u103",
+        "userName": "Le Van Chuan",
+        "rating": 5,
+        "comment": "Trải nghiệm tuyệt vời, nhân viên nhiệt tình.",
+        "createdAt": "2025-10-12T10:00:00"
+      },
+      {
+        "id": "r004",
+        "userId": "u104",
+        "userName": "Pham Thi Dung",
+        "rating": 4,
+        "comment": "Phong cảnh đẹp, chỉ có wifi hơi yếu.",
+        "createdAt": "2025-10-13T11:20:00"
+      }
+    ]
+  },
+  {
+    "id": "fc9e3b0c-244f-4db2-9e11-c034c3e2d654",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Du Lịch Suối Hai ",
+    "name": "Du Lịch Suối Hai ",
+     "address": "Suối Hai, Ba Vì, Hà Nội, Hanoi, Vietnam",
+    "description": "Khu Du Lịch Suối Hai được xem như thiên đường cắm trại & vui chơi giữa lòng Ba Vì. Nằm ẩn mình giữa khung cảnh thiên nhiên hùng vĩ, tươi đẹp của Ba Vì và chỉ cách Hà Nội một giờ di chuyển, Khu du lịch Suối Hai Ba Vì là điểm đến lý tưởng cho những ai muốn tạm gác lại ồn ào phố thị và tìm về sự bình yên. Nằm bên hồ Suối Hai rộng lớn, nơi đây mang đến không gian xanh mát, không khí trong lành cùng cảnh quan núi non thơ mộng. Khoảnh khắc bình minh hay hoàng hôn in bóng xuống mặt hồ lấp lánh sẽ khiến bất cứ ai cũng phải say đắm. Đến với Suối Hai, bạn sẽ được hòa mình vào các trải nghiệm thú vị như cắm trại giữa thiên nhiên, quây quần bên bếp lửa BBQ, chèo SUP khám phá hồ, hay thảnh thơi câu cá thư giãn. Các gia đình có trẻ nhỏ cũng sẽ yêu thích khu vui chơi dành riêng cho bé với xe điện, tàu hỏa mini, nhà bóng đầy màu sắc. Sau một ngày vui chơi, bạn còn có thể thưởng thức những món đặc sản tươi ngon như dê núi, bê nướng, cá hồ… được chế biến nóng hổi ngay tại khu du lịch. Suối Hai Ba Vì là nơi để bạn tái tạo năng lượng, tận hưởng những giây phút thư giãn trọn vẹn và lưu lại thật nhiều kỷ niệm đáng nhớ cùng gia đình, bạn bè.",
+    "thumbnail": "/assets/imageCamping/20.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "05293fa9-08ff-4581-a261-ac3b42e0b511",
+        "serviceId": null,
+        "serviceName": "Thuê bếp",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services4.jpg"
+      },
+      {
+        "id": "ab1b3cd0-fb55-47ea-a821-41db9e635797",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 30000.0,
+        "imageUrl": "/assets/imageCamping/services2.jpg"
+      }
+    ],
+    "tents": [
+      {
+        "id": "0d60a767-44ba-4fe9-9e1b-d28a54f2ceb1",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "/assets/imageCamping/ten2.jpg"
+      },
+      {
+        "id": "393a756e-b1fc-4057-8265-b6ac9a46d915",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 5,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "4c1459ec-734a-477b-8886-495b0dbf1f96",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/21.jpg"
+      },
+      {
+        "id": "a80b486b-0c17-4dae-a466-edb041f17192",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl":"/assets/imageCamping/22.jpg"
+      },
+      {
+        "id": "ab998ebc-bcdb-4cb9-90a3-5c0bd9cf8eed",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/23.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-09T05:52:20",
+    "updatedAt": "2025-10-09T05:52:20",
+     "reviews": [
+      {
+        "id": "r003",
+        "userId": "u103",
+        "userName": "Le Van Chuan",
+        "rating": 5,
+        "comment": "Trải nghiệm tuyệt vời, nhân viên nhiệt tình.",
+        "createdAt": "2025-10-12T10:00:00"
+      },
+      {
+        "id": "r004",
+        "userId": "u104",
+        "userName": "Pham Thi Dung",
+        "rating": 4,
+        "comment": "Phong cảnh đẹp, chỉ có wifi hơi yếu.",
+        "createdAt": "2025-10-13T11:20:00"
+      }
+    ]
+  },
+   {
+    "id": "fc9e3b0c-244f-4db2-9e11-c034c3e2d654",
+    "userId": "u001",
+    "campingSiteId": "camp001",
+    "campingSiteName": "Ruby camping",
+    "name": "Ruby camping",
+     "address": "Hồ Đồng Đò, Minh Tân, Sóc Sơn, Hanoi, Vietnam",
+    "description": "Chỉ cách trung tâm Hà Nội khoảng 40km, Ruby Camping tại Hồ Đồng Đò – Sóc Sơn là điểm dừng chân hoàn hảo cho những ai yêu thích cuộc sống ngoài trời và muốn tận hưởng thiên nhiên một cách trọn vẹn. Nằm giữa rừng thông bát ngát và view hồ xanh biếc thơ mộng, nơi đây mang đến cảm giác yên bình và tách biệt hoàn toàn khỏi sự xô bồ của phố thị. Ruby Camping được thiết kế để mang đến trải nghiệm cắm trại tiện nghi mà vẫn giữ trọn sự gần gũi thiên nhiên. Bạn có thể lựa chọn lều trại được setup đầy đủ chăn gối, quạt, bàn ghế; bungalow sàn gỗ mát mẻ vào mùa hè, ấm áp vào mùa đông; hoặc homestay view hồ dành cho nhóm bạn đông người. Buổi tối, cả nhóm có thể quây quần bên bếp lửa, tổ chức tiệc BBQ, chia sẻ câu chuyện dưới bầu trời đầy sao. Bên cạnh đó, Ruby Camping còn mang đến nhiều hoạt động giải trí như chèo thuyền kayak giữa hồ, đánh cầu lông, leo núi, đạp xe, câu cá hay hát karaoke ngoài trời. Khu dịch vụ ăn uống đa dạng với các set nướng, lẩu sẵn sàng phục vụ, giúp bạn tận hưởng một kỳ nghỉ trọn vẹn mà không cần lo lắng chuẩn bị quá nhiều. Ruby Camping không chỉ là một điểm cắm trại, mà là nơi bạn được kết nối với thiên nhiên, gắn kết với người thân và tạo nên những kỷ niệm đáng nhớ.",    
+    "thumbnail": "/assets/imageCamping/24.jpg",
+    "bookedCount": 0,
+    "revenue": 0.0,
+    "services": [
+      {
+        "id": "05293fa9-08ff-4581-a261-ac3b42e0b511",
+        "serviceId": null,
+        "serviceName": "Thuê bếp",
+        "price": 50000.0,
+        "imageUrl": "/assets/imageCamping/services4.jpg"
+      },
+      {
+        "id": "ab1b3cd0-fb55-47ea-a821-41db9e635797",
+        "serviceId": null,
+        "serviceName": "Thuê ghế",
+        "price": 30000.0,
+        "imageUrl": "/assets/imageCamping/services2.jpg"
+      }
+    ],
+    "tents": [
+      {
+        "id": "0d60a767-44ba-4fe9-9e1b-d28a54f2ceb1",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 2 người",
+        "capacity": 2,
+        "pricePerNight": 100000.0,
+        "quantity": 10,
+        "thumbnail": "/assets/imageCamping/ten2.jpg"
+      },
+      {
+        "id": "393a756e-b1fc-4057-8265-b6ac9a46d915",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "tentName": "Lều 4 người",
+        "capacity": 4,
+        "pricePerNight": 200000.0,
+        "quantity": 5,
+        "thumbnail": "/assets/imageCamping/ten4.jpg"
+      }
+    ],
+    "galleries": [
+      {
+        "id": "4c1459ec-734a-477b-8886-495b0dbf1f96",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/25.jpg"
+      },
+      {
+        "id": "a80b486b-0c17-4dae-a466-edb041f17192",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl":"/assets/imageCamping/26.jpg"
+      },
+      {
+        "id": "ab998ebc-bcdb-4cb9-90a3-5c0bd9cf8eed",
+        "campingId": "fc9e3b0c-244f-4db2-9e11-c034c3e2d685",
+        "imageUrl": "/assets/imageCamping/27.jpg"
+      }
+    ],
+    "active": true,
+    "rate": 0.0,
+    "createdAt": "2025-10-09T05:52:20",
+    "updatedAt": "2025-10-09T05:52:20",
+     "reviews": [
+      {
+        "id": "r003",
+        "userId": "u103",
+        "userName": "Le Van Chuan",
+        "rating": 5,
+        "comment": "Trải nghiệm tuyệt vời, nhân viên nhiệt tình.",
+        "createdAt": "2025-10-12T10:00:00"
+      },
+       {
+        "id": "r007",
+        "userId": "u107",
+        "userName": "Le Van Khoa",
+        "rating": 5,
+        "comment": "Dịch vụ chu đáo, lều sạch sẽ, cảm giác rất thư giãn.",
+        "createdAt": "2025-10-16T07:20:00"
+      },
+       {
+    "id": "r008",
+    "userId": "u108",
+    "userName": "Pham Thi Lan",
+    "rating": 3,
+    "comment": "Thiết bị còn thiếu một số thứ, nhưng cảnh quan khá đẹp.",
+    "createdAt": "2025-10-17T10:10:00"
+    }   
     ]
   }
 ]
